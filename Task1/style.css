@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  min-width: 500px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #323740;
+  color: #fff;
+
+  font-size: 3vh;
+}
+
+.main__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item__middle1 {
+  background: #030303;
+  flex: 1 1 40%;
+}
+
+.item__middle2 {
+  background: #002BF9;
+  flex: 1 1 50%;
+}
+
+.item__start,
+.item__end {
+  background: #8C9096;
+}
